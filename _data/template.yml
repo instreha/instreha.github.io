@@ -7,5 +7,5 @@ color:
 
 # Font Families
 font:
-  primary: '"Futura Book Regular", "Helvetica Neue", Helvetica, Arial, sans-serif'
+  primary: '"Futura Light", "Helvetica Neue", Helvetica, Arial, sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial, sans-serif'
