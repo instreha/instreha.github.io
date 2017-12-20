@@ -298,7 +298,7 @@ fieldset[disabled] .btn-xl.active {
   }
 
   .navbar-default.navbar-shrink .navbar-brand {
-  font-size: 1.5em;
+  font-size: 1.3em;
   }
 }
 
@@ -375,6 +375,7 @@ section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 40px;
+  letter-spacing: 2px;
 }
 
 section h3.section-subheading {
