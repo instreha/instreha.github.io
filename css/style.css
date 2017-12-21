@@ -909,3 +909,8 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+#map-canvas {
+  width: 550px;
+  height: 500px;
+}
