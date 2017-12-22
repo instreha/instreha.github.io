@@ -37,3 +37,7 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Therapies
+collections:
+  - therapies
