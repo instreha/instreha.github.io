@@ -371,6 +371,14 @@ section {
   padding: 100px 0;
 }
 
+section.imprint {
+  padding: 10px 0;
+}
+
+blockquote.imprint {
+  font-size: 14px;
+}
+
 section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
