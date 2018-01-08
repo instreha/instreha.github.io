@@ -369,7 +369,7 @@ header .intro-text .intro-heading {
 
 @media(max-width:390px) {
   header .intro-text img {
-    width: 300px;
+    width: 250px;
   }
 }
 
