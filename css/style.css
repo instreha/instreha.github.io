@@ -480,6 +480,19 @@ section h3.section-subheading {
   font-style: italic;
 }
 
+#leistungen .portfolio-item .portfolio-caption ul {
+  margin-top: 20px;
+}
+
+#leistungen .portfolio-item .portfolio-caption ul li {
+  margin: 0;
+  font-family: {{ site.data.template.font.secondary }};
+  color: #{{ site.data.template.color.muted }};
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+}
+
 #leistungen * {
   z-index: 2;
 }
