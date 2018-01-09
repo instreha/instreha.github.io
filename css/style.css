@@ -949,6 +949,7 @@ body {
 #map-canvas {
   width: 550px;
   height: 500px;
+  margin-bottom: 20px;
 }
 
 @media(max-width: 600px) {
