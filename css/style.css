@@ -493,6 +493,15 @@ section h3.section-subheading {
   text-align: left;
 }
 
+#leistungen .portfolio-item .portfolio-caption ul li a {
+  color: #{{ site.data.template.color.muted }};
+  text-decoration: underline;
+}
+
+#leistungen .portfolio-item .portfolio-caption ul li a:hover {
+  text-decoration: none;
+}
+
 #leistungen * {
   z-index: 2;
 }
