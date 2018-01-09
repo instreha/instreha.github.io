@@ -252,7 +252,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 
-@media(max-width: 390px) {
+@media(max-width: 420px) {
   .navbar-brand { 
     max-width: 200px; 
     margin-bottom: 20px;
@@ -949,4 +949,10 @@ body {
 #map-canvas {
   width: 550px;
   height: 500px;
+}
+
+@media(max-width: 600px) {
+  #map-canvas {
+    width: 90%;
+  }
 }
