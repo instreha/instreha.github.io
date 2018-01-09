@@ -7,23 +7,62 @@
         <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
       </div>
     </div>
+
     <div class="row">
-    {% for therapy in site.therapies %}
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="#therapyModal{{ therapy.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="fa fa-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/therapies/{{ therapy.thumbnail }}" class="img-responsive img-centered" alt="{{ therapy.title }}">
+        <a href="#" class="portfolio-link" data-toggle="modal">
+          <img src="img/therapies/card-thumbnail.png" class="img-responsive img-centered">
         </a>
         <div class="portfolio-caption">
-          <h4>{{ therapy.title }}</h4>
-          <p class="text-muted">{{ therapy.subtitle }}</p>
+          <h4>Basistherapie</h4>
+          <p class="text-muted">
+            <ul>
+              <li>Basistherapie 1</li>
+              <li>Basistherapie 2</li>
+              <li>Basistherapie 3</li>
+            </ul>
+          </p>
         </div>
       </div>
-    {% endfor %}
     </div>
+
+    <div class="row">
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="#" class="portfolio-link" data-toggle="modal">
+          <img src="img/therapies/gyrotonic-2-thumbnail.png" class="img-responsive img-centered">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Spezialtherapie</h4>
+          <p class="text-muted">
+            <ul>
+              <li>Spezialtherapie 1</li>
+              <li>Spezialtherapie 2</li>
+              <li>Spezialtherapie 3</li>
+              {% for therapy in site.therapies %}
+              {% endfor %}
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="#" class="portfolio-link" data-toggle="modal">
+          <img src="img/therapies/handle-thumbnail.png" class="img-responsive img-centered">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Zusatztherapie</h4>
+          <p class="text-muted">
+            <ul>
+              <li>Spezialtherapie 1</li>
+              <li>Spezialtherapie 2</li>
+              <li>Spezialtherapie 3</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
