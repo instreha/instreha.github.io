@@ -5,6 +5,6 @@ task :build do
   sh "jekyll", "build"
 end
 
-task :server do
-  sh "serveit", "-s", "_site", "jekyll build"
+task :serve do
+  sh "serveit", "-s", "_site", "jekyll build --config _config.yml,_config.dev.yml"
 end
