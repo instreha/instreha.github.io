@@ -2,11 +2,8 @@
 title: Team Care Concept
 modal-id: 8
 img: ergometer.jpg
-thumbnail: ergometer-thumbnail.png
 
 ---
-
-# Team Care Concept
 
 Sie sind als Chef geplagt von Krankschreibungen bzw. Überlastungen im Team und  müssen vielleicht selbst die Fehltage kompensieren?
 
@@ -25,6 +22,3 @@ Die Fürsorge hinsichtlich der Gesundheit Ihrer Mitarbeiter lohnt sich langfrist
 Wir sind ein Team von Osteopathen, Physiotherapeuten oder Manualtherapeuten – je nach Bedarf und Budget.
 
 **Fachkompetenz: Fr. Faust-Müller oder Fr. Lindner**
-{: .centered}
-
-![](/assets/thumb/card.jpg)

@@ -2,11 +2,8 @@
 title: SPOT®
 modal-id: 9
 img: ergometer.jpg
-thumbnail: ergometer-thumbnail.png
 
 ---
-
-# SPOT®
 
 Wir freuen uns, Ihnen mit SPOT ein umfassendes Behandlungskonzept präsentieren zu können. Es ist das Ergebnis jahrelanger Erfahrung.
 

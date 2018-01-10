@@ -2,11 +2,8 @@
 title: Osteopathie
 modal-id: 2
 img: ergometer.jpg
-thumbnail: ergometer-thumbnail.png
 
 ---
-
-# Osteopathie
 
 In einem gesunden Organismus mit seinen drei Körperrhythmen, bedingt durch  Herzschlag, Atemfrequenz und Fluktuation der Hirnflüssigkeit, soll jede Struktur beweglich bleiben. Eine Verklebung und die damit verbundene Immobilität können zu einer Funktionseinschränkung führen. Häufig sind Narben, Entzündungen, Traumata oder Überlastungen die Ursache einer faszialen (bindegeweblichen) Verklebung.
 

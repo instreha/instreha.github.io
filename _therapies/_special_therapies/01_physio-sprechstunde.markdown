@@ -1,12 +1,9 @@
 ---
 title: Physiotherapeutische Sprechstunde
 modal-id: 1
-img: ergometer.jpg
-thumbnail: ergometer-thumbnail.png
+img: cards.jpg
 
 ---
-
-# Physiotherapeutische Sprechstunde
 
 *	Sie haben heute Schmerzen und brauchen zeitnah Hilfe?
 *	Sie benötigen fachgerechte Unterstützung vor oder nach Operationen?

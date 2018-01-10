@@ -2,11 +2,8 @@
 title: 3D Therapie nach Schroth
 modal-id: 7
 img: ergometer.jpg
-thumbnail: ergometer-thumbnail.png
 
 ---
-
-# 3D Therapie nach Schroth
 
 Als Skoliose bezeichnet man eine Seitverbiegung der Wirbelsäule mit gleichzeitiger Rotation der Wirbelkörper und einem Längenverlust des Rumpfes.
 
@@ -27,5 +24,3 @@ Kombination/Ergänzung in unserer Praxis:
 *	Spiraldynamik
 
 **Fachkompetenz: Fr. S. Hacker**
-
-![](/assets/thumb/handle.jpg)
