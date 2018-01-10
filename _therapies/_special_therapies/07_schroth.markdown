@@ -1,0 +1,31 @@
+---
+title: 3D Therapie nach Schroth
+modal-id: 7
+img: ergometer.jpg
+thumbnail: ergometer-thumbnail.png
+
+---
+
+# 3D Therapie nach Schroth
+
+Als Skoliose bezeichnet man eine Seitverbiegung der Wirbelsäule mit gleichzeitiger Rotation der Wirbelkörper und einem Längenverlust des Rumpfes.
+
+Um eine individuell passende Behandlung durchführen zu können, ist ein ausführlicher Befund unerlässlich. Der Erstkontakt findet im Rahmen einer Sprechstunde statt. Zu Beginn sind regelmäßige Termine nötig, um die Korrekturen zu verstehen und die individuellen Übungen zu schulen.
+
+Anwendungsbereiche/ Indikationen:
+
+*	Skoliosen und deren Fehlhaltungen
+*	Scheuermann
+*	Flachrücken/Rundrücken/hohlrunder Rücken
+*	Haltungsschwächen
+
+Kombination/Ergänzung in unserer Praxis:
+
+*	Osteopathie
+*	medizinische Trainingstherapie
+*	Gyrotonic Expansion System ®
+*	Spiraldynamik
+
+**Fachkompetenz: Fr. S. Hacker**
+
+![](/assets/thumb/handle.jpg)
