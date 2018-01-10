@@ -959,3 +959,12 @@ body {
     width: 90%;
   }
 }
+
+#kontakt h3 {
+  margin-bottom: 50px;
+}
+
+#kontakt .service-subheading {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
