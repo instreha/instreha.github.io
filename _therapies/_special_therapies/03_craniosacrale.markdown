@@ -1,7 +1,7 @@
 ---
 title: Craniosacrale
 modal-id: 3
-img: ergometer.jpg
+img: doors.jpg
 
 ---
 

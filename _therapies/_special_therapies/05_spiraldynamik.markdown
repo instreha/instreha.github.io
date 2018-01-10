@@ -1,8 +1,7 @@
 ---
 title: Spiraldynamik®
 modal-id: 5
-img: ergometer.jpg
-thumbnail: ergometer-thumbnail.png
+img: pulley.jpg
 
 ---
 

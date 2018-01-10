@@ -1,8 +1,7 @@
 ---
 title: Gyrotonic Expansion System®
 modal-id: 4
-img: ergometer.jpg
-thumbnail: ergometer-thumbnail.png
+img: gyrotonic.jpg
 
 ---
 

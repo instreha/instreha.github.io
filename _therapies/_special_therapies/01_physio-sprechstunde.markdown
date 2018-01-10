@@ -1,7 +1,7 @@
 ---
 title: Physiotherapeutische Sprechstunde
 modal-id: 1
-img: cards.jpg
+img: info.jpg
 
 ---
 

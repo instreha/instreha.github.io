@@ -1,7 +1,7 @@
 ---
 title: Osteopathie
 modal-id: 2
-img: ergometer.jpg
+img: water-dispenser.jpg
 
 ---
 

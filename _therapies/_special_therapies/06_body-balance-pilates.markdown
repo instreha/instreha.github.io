@@ -1,7 +1,7 @@
 ---
 title: Body Balance Pilates
 modal-id: 6
-img: ergometer.jpg
+img: towels.jpg
 
 ---
 
