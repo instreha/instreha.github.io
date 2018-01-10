@@ -2,7 +2,7 @@
 task default: :build
 
 task :build do
-  sh "jekyll", "build"
+  sh "jekyll", "build", "--config", "_config.yml,_config.dev.yml"
 end
 
 task :serve do
