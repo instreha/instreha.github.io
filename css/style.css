@@ -969,6 +969,10 @@ body {
   margin-bottom: 30px;
 }
 
+#praxis .service-subheading {
+  margin-top: -10px;
+}
+
 .github-fork-ribbon.left-top:before {
     background-color: #945214;
 }
