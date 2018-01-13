@@ -972,3 +972,8 @@ body {
 .github-fork-ribbon.left-top:before {
     background-color: #945214;
 }
+
+#praxis a {
+  text-decoration: none;
+  color: inherit;
+}
