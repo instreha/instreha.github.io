@@ -968,3 +968,7 @@ body {
   margin-top: -10px;
   margin-bottom: 30px;
 }
+
+.github-fork-ribbon.left-top:before {
+    background-color: #945214;
+}
