@@ -848,6 +848,16 @@ ul.social-buttons li a:active {
   background-color: #{{ site.data.template.color.primary }};
 }
 
+
+
+h5.cv, p.cv, ul.cv li { 
+  text-align: left; 
+  margin-left: 20px;
+}
+h5.cv {
+  color: #{{ site.data.template.color.muted }};
+}
+
 .btn:focus,
 .btn:active,
 .btn.active,
