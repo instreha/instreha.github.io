@@ -7,15 +7,13 @@ img: water-dispenser.jpg
 
 In einem gesunden Organismus mit seinen drei Körperrhythmen, bedingt durch  Herzschlag, Atemfrequenz und Fluktuation der Hirnflüssigkeit, soll jede Struktur beweglich bleiben. Eine Verklebung und die damit verbundene Immobilität können zu einer Funktionseinschränkung führen. Häufig sind Narben, Entzündungen, Traumata oder Überlastungen die Ursache einer faszialen (bindegeweblichen) Verklebung.
 
-Aufgabe des Osteopathen ist, die Ursache, welche mit der Schmerzlokalisation nicht immer identisch ist, zu analysieren und das funktionelle Gleichgewicht wieder-herzustellen. So kann zum Beispiel eine Achillessehnenproblematik nicht nur mit dem Muskelsehnenübergang selbst, sondern auch mit Verklebungen im Darm zusammenhängen oder ein Schulterschmerz nicht nur die Schulter direkt betreffen, sondern auch mit einer Immobilität im Bereich der Brustwirbelsäule, des Zwerchfells und der Oberbauchorgane in Zusammenhang stehen. Es bleibt spannend!
+Aufgabe des Osteopathen ist, die Ursache, welche mit der Schmerzlokalisation nicht immer identisch ist, zu analysieren und das funktionelle Gleichgewicht wieder-herzustellen. So kann zum Beispiel eine Achillessehnenproblematik nicht nur mit dem Muskelsehnenübergang selbst, sondern auch mit Verklebungen im Darm zusammenhängen.
 
 Grundsätzlich werden dabei 3 strukturelle Gebiete unterschieden und bei der Behandlung in Zusammenhang gebracht:
 
 * **Parietal** (die Funktionseinheit des Bewegungsapparates)
 * **Visceral** (die Mobilität der inneren Organe)
 * **Craniosacral** (der Bewegungsverbund des Schädels mit dem Kreuzbein)
-
-Die Anwendung osteopathischer Techniken, welche in einem 5 jährigen Studium erlernt werden, verlangt neben hohem Fachwissen, einen besonders geschulten, feinen Tastsinn.
 
 #### Zum organisatorischen Ablauf:
 
