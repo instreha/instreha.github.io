@@ -220,7 +220,7 @@ fieldset[disabled] .btn-xl.active {
   font-family: {{ site.data.template.font.primary }};
   font-weight: 400;
   letter-spacing: 1px;
-  color: #fff;
+  color: #333;
   -webkit-transition: all ease .35s;
   -moz-transition: all ease .35s;
   transition: all ease .35s;
@@ -228,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-brand { display: none; }
 
-.navbar-shrink .nav li a { color: #222; }
+.navbar-shrink .nav li a { color: #333; }
 
 .navbar-shrink .navbar-brand { display: block; }
 
