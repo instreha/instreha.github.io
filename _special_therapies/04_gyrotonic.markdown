@@ -13,6 +13,6 @@ Besondere Aufmerksamkeit wird der Wirbelsäule, z.B. Skoliose, Kyphose oder Band
 
 Wir freuen uns vom Rehapatienten bis zum Profisportler, Menschen aller Alterstklassen mit neuer Energie zu versehen.
 
-Sollten Sie sich für diese aktive Therapie entscheiden, brauchen Sie bequeme Kleidung (+ Socken) und Spass an Ihrer eigenen Körperarbeit.
+Sie brauchen dazu bequeme Kleidung (+ Socken) und Spass an Ihrer eigenen Körperarbeit.
 
 **Fachkompetenz: C. Faust-Müller**

@@ -20,5 +20,3 @@ Wir kümmern uns um das Wohlbefinden Ihrer Mitarbeiter vor Ort - langfristig und
 Die Fürsorge hinsichtlich der Gesundheit Ihrer Mitarbeiter lohnt sich langfristig und lässt sich bis zu 500 € pro Mitarbeiter und Jahr steuer,- und sozialversicherungsfrei absetzen.
 
 Wir sind ein Team von Osteopathen, Physiotherapeuten oder Manualtherapeuten – je nach Bedarf und Budget.
-
-**Fachkompetenz: Fr. Faust-Müller oder Fr. Lindner**
