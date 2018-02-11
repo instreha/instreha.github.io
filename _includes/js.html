@@ -11,3 +11,70 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+<!-- Highcharts -->
+<script src="{{ "/js/highcharts-custom.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript">
+  $(function () {
+    $('#no-js-chart').hide();
+    $('#chart-container').highcharts({
+      chart: {
+        polar: true,
+        type: 'line',
+        backgroundColor: 'rgba(0,0,0,0)'
+      },
+      title: {
+        text: '',
+        style: {
+          display: 'none'
+        }
+      },
+      pane: {
+        size: '60%'
+      },
+      xAxis: {
+        categories: [
+          'Telefoinische Erreichbarkeit',
+          'Betreuung im Trainingsbereich',
+          'Fachliche Kompetenz',
+          'Persönliches Engagment',
+          'Umsetzen von Heimprogramm',
+          'Erreichen von gemeinsamen Zielen',
+          'Praxis- ausstattung',
+          'Organisation an der Rezeption'
+        ],
+        tickmarkPlacement: 'on',
+        lineWidth: 0
+      },
+      yAxis: {
+        gridLineInterpolation: 'polygon',
+        lineWidth: 0,
+        min: 60,
+        max: 100,
+        labels: {
+          format: '{value}%'
+        }
+      },
+      tooltip: {
+        shared: true,
+        pointFormat: '<span style="color:{series.color}">{series.name}: <b>{point.y:,.0f}%</b><br/>'
+      },
+      legend: { enabled: false },
+      series: [{
+        name: 'Umfrage 2017',
+        data: [
+          98,
+          99,
+          99,
+          99,
+          91,
+          95,
+          96,
+          91
+        ],
+        pointPlacement: 'on',
+        color: '#3D9970'
+      }]
+    });
+  });
+</script>
