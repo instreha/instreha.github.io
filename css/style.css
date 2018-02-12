@@ -255,8 +255,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(max-width: 420px) {
-  .navbar-brand { 
-    max-width: 200px; 
+  .navbar-brand {
+    max-width: 200px;
     margin-bottom: 20px;
   }
 }
@@ -850,8 +850,8 @@ ul.social-buttons li a:active {
 
 
 
-h5.cv, p.cv, ul.cv li { 
-  text-align: left; 
+h5.cv, p.cv, ul.cv li {
+  text-align: left;
   margin-left: 20px;
 }
 h5.cv {
@@ -990,4 +990,15 @@ body {
 #praxis a {
   text-decoration: none;
   color: inherit;
+}
+
+.annotation-pic {
+  width: 400px !important;
+  margin: auto;
+}
+
+@media(max-width: 600px) {
+  .annotation-pic {
+    width: 300px !important;
+  }
 }
