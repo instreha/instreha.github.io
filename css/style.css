@@ -742,6 +742,12 @@ section h3.section-subheading {
   color: #{{ site.data.template.color.secondary-dark }};
 }
 
+.team-member a:hover,
+.team-member a:active,
+.team-member a:focus {
+  text-decoration: none;
+}
+
 aside.clients img {
   margin: 50px auto;
   height: 100px;
