@@ -737,6 +737,11 @@ section h3.section-subheading {
   margin-top: 0;
 }
 
+.team-member a h4 {
+  text-decoration: none;
+  color: #{{ site.data.template.color.secondary-dark }};
+}
+
 aside.clients img {
   margin: 50px auto;
   height: 100px;
