@@ -243,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
   color: #{{ site.data.template.color.primary }};
 }
 
-@media(max-width:768px) {
+@media(max-width:767px) {
   .navbar-default .nav li a { color: #222; }
   .navbar-brand { display: block; }
   .navbar-default .nav li a:hover,
