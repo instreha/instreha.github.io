@@ -333,6 +333,7 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
+  color: #333;
 }
 
 header .intro-text .intro-heading {
@@ -343,6 +344,7 @@ header .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
+  color: #333;
 }
 
 @media(min-width:768px) {
