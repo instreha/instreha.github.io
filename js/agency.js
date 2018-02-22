@@ -26,6 +26,7 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $('div.modal').on('show.bs.modal', function() {
+  this.focus();
 	var modal = this;
 	var hash = modal.id;
 	window.location.hash = hash;
