@@ -896,6 +896,7 @@ h5.cv {
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
+  word-wrap:break-word;
 }
 
 .portfolio-modal .modal-content p {
