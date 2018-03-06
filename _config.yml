@@ -4,7 +4,7 @@ baseurl: ""
 # Site settings
 title: Institut für Rehabilitation
 email: praxis@institut-rehabilitation.de
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Das Institut für Rehabilitation besteht seit über 20 Jahren im Münchner Süden und ist durch den MVG (U3 und Bus 132 / 63) direkt mit der Innenstadt verbunden."
 
 # Build settings
 markdown: kramdown
