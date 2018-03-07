@@ -4,7 +4,7 @@ baseurl: ""
 # Site settings
 title: Institut für Rehabilitation
 email: praxis@institut-rehabilitation.de
-description: "Das Institut für Rehabilitation besteht seit über 20 Jahren im Münchner Süden und ist durch den MVG (U3 und Bus 132 / 63) direkt mit der Innenstadt verbunden."
+description: "Das Gesundheitshaus im Münchner Süden mit ruhiger Spezialtherapie im 1.Stock, komplexer Basistherapie im EG und aktiver Trainingstherapie im UG."
 
 # Build settings
 markdown: kramdown
