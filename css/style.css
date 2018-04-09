@@ -1015,6 +1015,10 @@ body {
   margin: auto;
 }
 
+.cv h5 {
+  margin-top: 20px;
+}
+
 @media(max-width: 600px) {
   .annotation-pic {
     width: 300px !important;
