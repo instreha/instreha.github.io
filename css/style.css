@@ -388,6 +388,10 @@ section.imprint {
   padding: 10px 0;
 }
 
+section.imprint ul {
+  margin-bottom: 10px;
+}
+
 blockquote.imprint {
   font-size: 14px;
 }
