@@ -36,3 +36,10 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+// Show Goole Maps only after click
+function activateGoogleMaps() {
+  $('div#googlemaps_placeholder').replaceWith(" <iframe id='map-canvas' frameborder='0' src='https://www.google.com/maps/embed/v1/place?key=AIzaSyBBsugMK1AyAZMwSS6H5FGyI7W1YyEVPVw &q=Institut+fuer+Rehabilitation' allowfullscreen> ");
+}
+
+$('button.activate-googlemaps').click(activateGoogleMaps);

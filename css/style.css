@@ -1024,6 +1024,17 @@ body {
   margin-top: 20px;
 }
 
+#googlemaps_placeholder {
+  height: 500px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+#googlemaps_placeholder button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 @media(max-width: 600px) {
   .annotation-pic {
     width: 300px !important;
