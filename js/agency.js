@@ -43,3 +43,20 @@ function activateGoogleMaps() {
 }
 
 $('button.activate-googlemaps').click(activateGoogleMaps);
+
+// Automatically scroll through page continously
+function scrollUpAndDown(period) {
+  $("html, body").animate({ scrollTop: 0 }, period);
+
+  setTimeout(function() {
+    $('html, body').animate({scrollTop: $(document).height()}, period);
+  }, period);
+}
+
+function activatePresentationMode() {
+  var period = 30000;
+  scrollUpAndDown(period);
+  setInterval(function() { scrollUpAndDown(period) }, 2*period);
+}
+
+$('a.activate-presentationmode').click(activatePresentationMode);
