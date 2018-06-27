@@ -54,7 +54,7 @@ function scrollUpAndDown(period) {
 }
 
 function activatePresentationMode() {
-  var period = 30000;
+  var period = 100000;
   scrollUpAndDown(period);
   setInterval(function() { scrollUpAndDown(period) }, 2*period);
 }
