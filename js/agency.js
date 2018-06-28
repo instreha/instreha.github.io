@@ -45,18 +45,96 @@ function activateGoogleMaps() {
 $('button.activate-googlemaps').click(activateGoogleMaps);
 
 // Automatically scroll through page continously
-function scrollUpAndDown(period) {
-  $("html, body").animate({ scrollTop: 0 }, period);
 
+function scrollTo(element, timeOffset) {
+  var period = 5000;
   setTimeout(function() {
-    $('html, body').animate({scrollTop: $(document).height()}, period);
-  }, period);
+    $('html, body').animate({ scrollTop: (element.offset().top) }, period);
+  }, timeOffset);
+  return timeOffset + period;
+}
+
+function showModal(element, timeOffset) {
+  var modalShowtime = 7000;
+  setTimeout(function() { element.modal('show'); }, timeOffset);
+  setTimeout(function() { element.modal('hide'); }, timeOffset + modalShowtime);
+  return timeOffset + modalShowtime;
+}
+
+function waitAround(timeOffset) {
+  var duration = 5000;
+  return timeOffset + duration;
+}
+
+function scrollThroughPage() {
+
+  var currentTime = 0;
+
+  currentTime = scrollTo($('body'), currentTime);
+  currentTime = waitAround(currentTime);
+
+  currentTime = scrollTo($('#praxis'), currentTime);
+
+  //currentTime = scrollTo($('a[href="#roomsModal"]'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#roomsModal'), currentTime);
+
+  //currentTime = scrollTo($('a[href="#teamModal"]'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#teamModal'), currentTime);
+
+  //currentTime = scrollTo($('a[href="#leadershipModal"]'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#leadershipModal'), currentTime);
+  currentTime = showModal($('#lindnerpModal'), currentTime);
+  currentTime = showModal($('#faustmuellercModal'), currentTime);
+
+  //currentTime = scrollTo($('a[href="#qualityModal"]'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#qualityModal'), currentTime);
+
+  currentTime = scrollTo($('#leistungen'), currentTime);
+
+  //currentTime = scrollTo($('#basic-therapy'), currentTime);
+  currentTime = waitAround(currentTime);
+
+  //currentTime = scrollTo($('#special-therapy'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#specialTherapyModal1'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#specialTherapyModal2'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#specialTherapyModal3'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#specialTherapyModal4'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#specialTherapyModal5'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#specialTherapyModal6'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#specialTherapyModal8'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#specialTherapyModal9'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#specialTherapyModal10'), currentTime);
+
+  //currentTime = scrollTo($('#additional-therapy'), currentTime);
+  currentTime = waitAround(currentTime);
+
+  currentTime = scrollTo($('#kontakt'), currentTime);
+  currentTime = waitAround(currentTime);
+
+  currentTime = scrollTo($('#checkliste'), currentTime);
+  currentTime = waitAround(currentTime);
+
+  currentTime = scrollTo($('.partners'), currentTime);
+  currentTime = waitAround(currentTime);
+
+  return currentTime;
 }
 
 function activatePresentationMode() {
-  var period = 100000;
-  scrollUpAndDown(period);
-  setInterval(function() { scrollUpAndDown(period) }, 2*period);
+  setInterval(function() { scrollThroughPage(); }, scrollThroughPage());
 }
 
 $('a.activate-presentationmode').click(activatePresentationMode);
