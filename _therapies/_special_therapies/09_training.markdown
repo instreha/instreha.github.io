@@ -6,16 +6,16 @@ img: machines.jpg
 ---
 
 ### Für wen?
-Alle. Sowohl Patienen mit größeren Handikaps wie auch Leistungssportler
+Alle. Sowohl Patienen mit größeren Handicaps wie auch Leistungssportler
 profitieren davon.
 
 ### Welche Geräte?
-Von Erometer, Crosswalter oder Laufband bis zur gesamten Rückenstraße,
-Beinpress, Seilzüge, Beinapparate... um nur einige zu nennen.
+Von Ergometer, Crosswalker oder Laufband bis zur gesamten Rückenstraße,
+Beinpresse, Seilzüge, Beinapparate... um nur einige zu nennen.
 
 ### Wie sieht es praktisch aus?
 Ein individueller Traningsplan wird mit Ihnen gemeinsam erstellt: Geräteauswahl
-mit den entsprechenen Einstellungen, Wiederholung und Gewichten, Es dauert 60
+mit den entsprechenen Einstellungen, Wiederholung und Gewichten.Es dauert 60
 Minuten und ist 1 - 2 mal pro Woche sinnvoll. Wir haben dafür spezielle Zeiten
 reserviert: vormittags, nachmittags und abends.
 
@@ -28,7 +28,7 @@ der Verordnung KGG (Krankengymnastik am Gerät). Zusätzlich können Sie sich au
 als Selbstzahler eine Trainingskarte à 25 EUR pro Einheit selbst finanzieren.
 
 ### Was sollten Sie noch wissen?
-Wir Therapeuten sind immmer mit dabei und helfen bei den Einstellungen, neu
+Wir Therapeuten sind immer mit dabei und helfen bei den Einstellungen, neu
 aufgetreteten Symptomen oder vergessenen Lesebrillen. Aufgrund der hohen
 Nachfrage bitten wir Sie Termine frühzeitig zu vereinbaren.
 
