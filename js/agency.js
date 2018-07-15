@@ -46,7 +46,7 @@ $('button.activate-googlemaps').click(activateGoogleMaps);
 
 // Automatically scroll through page continously
 function timeFactor() {
-  return 1000;
+  return 5000;
 }
 
 function scrollTo(element, timeOffset) {
