@@ -117,6 +117,8 @@ function scrollThroughPage() {
   currentTime = showModal($('#specialTherapyModal9'), currentTime);
   currentTime = waitAround(currentTime);
   currentTime = showModal($('#specialTherapyModal10'), currentTime);
+  currentTime = waitAround(currentTime);
+  currentTime = showModal($('#specialTherapyModal11'), currentTime);
 
   //currentTime = scrollTo($('#additional-therapy'), currentTime);
   currentTime = waitAround(currentTime);
