@@ -45,9 +45,12 @@ function activateGoogleMaps() {
 $('button.activate-googlemaps').click(activateGoogleMaps);
 
 // Automatically scroll through page continously
+function timeFactor() {
+  return 1000;
+}
 
 function scrollTo(element, timeOffset) {
-  var period = 5000;
+  var period = timeFactor() * 5;
   setTimeout(function() {
     $('html, body').animate({ scrollTop: (element.offset().top) }, period);
   }, timeOffset);
@@ -55,14 +58,14 @@ function scrollTo(element, timeOffset) {
 }
 
 function showModal(element, timeOffset) {
-  var modalShowtime = 7000;
+  var modalShowtime = timeFactor() * 7;
   setTimeout(function() { element.modal('show'); }, timeOffset);
   setTimeout(function() { element.modal('hide'); }, timeOffset + modalShowtime);
   return timeOffset + modalShowtime;
 }
 
 function waitAround(timeOffset) {
-  var duration = 5000;
+  var duration = timeFactor() * 5;
   return timeOffset + duration;
 }
 
