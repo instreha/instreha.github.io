@@ -22,4 +22,4 @@ Fr. Faust-Müller hat 3 erwachsene Söhne
 
 ##### Leitbild
 
-"Angenehm ist am Gegenwärtigen die Tätigkeit, am Künftigen die Hoffnung und am Vergangenen die Erinnerung." (Aristoteles)
+ " Das Leben ist zum Mitmachen da, nicht zum Zuschauen!" (K.Switzer)
