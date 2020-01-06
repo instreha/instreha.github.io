@@ -15,12 +15,24 @@
               <h2>{{ therapy.title }}</h2>
               <hr class="star-primary">
               <div class="row">
-                <div class="col-lg-4 text-center">
-                  <img src="img/therapies/{{ therapy.img }}" class="img-responsive img-centered" alt="{{ therapy.title }}">
-                </div>
-                <div class="col-lg-8 text-left">
-                  {{ therapy.content }}
-                </div>
+                {% if therapy.img %}
+                  <div class="col-lg-4 text-center">
+                    <img src="img/therapies/{{ therapy.img }}" class="img-responsive img-centered" alt="{{ therapy.title }}">
+                  </div>
+                  <div class="col-lg-8 text-left">
+                    {{ therapy.content }}
+                  </div>
+                {% else if therapy.mov %}
+                  <div class="col-lg-6 text-center">
+                    <video controls preload="none">
+                      <source src="mov/therapies/{{ therapy.mov }}" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div class="col-lg-6 text-left">
+                    {{ therapy.content }}
+                  </div>
+                {% endif %} 
               </div>
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Schließen</button>
             </div>

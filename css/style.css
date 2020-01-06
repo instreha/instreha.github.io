@@ -1040,3 +1040,8 @@ body {
     width: 300px !important;
   }
 }
+
+.portfolio-modal video {
+  width: 550px;
+  margin-bottom: 50px;
+}
