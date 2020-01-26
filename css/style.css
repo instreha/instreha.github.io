@@ -12,6 +12,16 @@
   src: url('{{ site.baseurl }}/fonts/futura-light.ttf') format("truetype");
 }
 
+@font-face {
+  font-family: "Roboto Slab";
+  src: url('{{ site.baseurl }}/fonts/roboto-slab-regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Droid Serif";
+  src: url('{{ site.baseurl }}/fonts/droid-serif-regular.ttf') format("truetype");
+}
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
