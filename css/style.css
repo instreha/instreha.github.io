@@ -371,6 +371,15 @@ header .intro-text .intro-heading {
   line-height: 40px;
   }
 
+  header .intro-text .intro-lead-in a {
+    color: #333;
+    text-decoration: underline;
+  }
+
+  header .intro-text .intro-lead-in a:hover {
+    text-decoration: none;
+  }
+
   header .intro-text .intro-heading {
   margin-bottom: 50px;
   text-transform: uppercase;
