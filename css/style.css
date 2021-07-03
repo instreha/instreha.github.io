@@ -96,6 +96,12 @@ h6 {
   background-color: #{{ site.data.template.color.primary }};
 }
 
+.intro-lead-in .btn-primary {
+  background-color: #555;
+  border-color: #333;
+  line-height: 22px;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
