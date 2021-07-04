@@ -923,6 +923,14 @@ h5.cv {
   box-shadow: none;
 }
 
+.portfolio-modal h5 {
+  font-family: {{ site.data.template.font.secondary }};
+  text-transform: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
@@ -930,7 +938,7 @@ h5.cv {
 }
 
 .portfolio-modal .modal-content p {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
