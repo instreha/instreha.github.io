@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "Futura Light";
+  src: url('/fonts/futura-light.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url('/fonts/roboto-slab-regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Droid Serif";
+  src: url('/fonts/droid-serif-regular.ttf') format("truetype");
+}
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#wrapper {
+  flex: 1;
+}
+
+.navbar {
+  font-family: "Futura Light";
+  text-transform: uppercase;
+  padding: 10px 20px;
+  transition: background-color 500ms linear;
+  color: #333;
+}
+
+.navbar-brand .navbar-item {
+  letter-spacing: 1.5px;
+  color: #9ED3CD;
+}
+
+.navbar-brand a.navbar-item {
+  display: none;
+  margin-top: 5px;
+}
+
+a {
+  color: #9ED3CD;
+}
+
+a.navbar-item {
+  border-radius: 10px;
+}
+
+a.navbar-item:hover {
+  color: #333;
+  background-color: #f1f1f1;
+}
+
+a.navbar-item.is-active {
+  color: #333;
+  background-color: #f1f1f1 !important;
+}
+
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+  background-color: inherit;
+  color: #333;
+}
+
+#landing {
+  background-image: url(../img/header-bg.jpg) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #fff;
+}
+
+#landing .title {
+  margin-top: calc(min(05vw, 30px));
+  margin-bottom: calc(max(min(10vw, 80px), 30px));
+  font-family: "Futura Light";
+  text-transform: uppercase;
+  font-size: calc(max(min(10vw, 4.5rem), 1.5rem));
+  font-weight: 700;
+  color: #333;
+}
+
+#landing .subtitle {
+  font-family: "Droid Serif";
+  font-size: calc(max(min(07vw, 2.5rem), 1rem));
+  font-style: italic;
+  color: #333;
+}
+
+#landing li a {
+  color: #333;
+  text-transform: uppercase;
+}
+
+#teaser video {
+  max-width: 95%;
+}
+
+section:nth-child(2n-1) {
+  background-color: #f7f7f7;
+}
+
+section.section {
+  padding: 10rem 1.5rem;
+}
+
+section h1.title, .hero p.title {
+  text-transform: uppercase;
+  font-family: "Futura Light";
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+section h3.subtitle, .hero p.subtitle {
+  margin-top: 80px;
+  margin-bottom: 100px !important;
+  color: #999;
+  font-style: italic;
+}
+
+.bubbles .fa-circle {
+  color: #9ED3CD;
+}
+
+.bubbles p.title {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.bubbles p.subtitle {
+  font-size: 1rem;
+  color: #999;
+}
+
+.card p.title {
+  font-family: "Futura Light";
+  font-size: 1.5rem;
+}
+
+/* Modals */
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+  left: 0;
+  right: 0;
+	transition: opacity 200ms;
+  visibility: hidden;
+	opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.card-content li {
+  font-style: italic;
+  color: #999;
+}
+
+.card-content li a {
+  color: #999;
+  text-decoration: underline;
+}
+
+.card-content li a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+.modal-card {
+  width: 80%;
+}
+
+.modal-card-title {
+  font-family: "Futura Light";
+  text-transform: uppercase;
+}
+
+.modal-background {
+  cursor: default;
+}
+
+.modal-card figure {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+#map-canvas {
+  width: 100%;
+  height: 500px;
+}
+
+#partners img {
+  height: 100px;
+}
+
+.modal-card-body h3 {
+  font-family: "Futura Light";
+  text-transform: uppercase;
+}
+
+#imprint ol > li, #privacy ol > li {
+  margin-bottom: 20px;
+}
+
+.modal-card.fill {
+  min-height: 80vh;
+}
+
+img.is-circled {
+  border-radius: 50%;
+}
+
+.is-width-400 {
+  width: 400px;
+}
+
+.footer .level {
+  margin-top: 50px;
+}
